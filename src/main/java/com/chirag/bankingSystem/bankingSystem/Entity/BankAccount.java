@@ -46,5 +46,8 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    public void setHolderName(String newName) {
+        this.accountHolderName = newName;
+    }
 }
 
